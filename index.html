@@ -4,8 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header class="pt-6 pb-20 bg-[#FFFBF0]">
+      <!-- logo and nav -->
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center justify-between"
+      >
+        <!-- Logo -->
+        <div class="md:mb-0 mb-5">
+          <a class="flex items-center text-3xl font-bold" href="#">
+            <img class="mr-2" src="icons/logo.svg" alt="" />
+            <span class="text-[#A4BC46] font-mon mr-2">Penguin</span>
+            <span class="font-mon"> Fashion</span></a
+          >
+        </div>
+        <!-- Nav -->
+        <nav>
+          <ul class="flex font-roboto font-medium">
+            <li><a class="mr-10" href="">Home</a></li>
+            <li><a class="mr-10" href="">Product</a></li>
+            <li><a class="mr-10" href="">About Us</a></li>
+            <li><a class="" href="">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Logo and nav end -->
+      <!-- Banner start -->
+      <section
+        class="pt-10 container mx-auto flex flex-col md:flex-row justify-between items-center"
+      >
+        <!-- Banner Content -->
+        <div class="mb-10 md:mb-0">
+          <h1 class="font-bebas text-7xl uppercase">
+            <span class="text-[#FABE4C]">Be The Penguins</span>
+            <br />
+            Of Winter
+          </h1>
+          <p class="font-roboto mt-7 mb-1">
+            Lorem Ipsum is simply dummy text of the printing <br />
+            and typesetting industry.
+          </p>
+          <button
+            class="rounded-lg font-roboto font-medium py-3 px-8 text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+          >
+            Buy Now
+          </button>
+        </div>
+        <!-- Banner Image -->
+        <div>
+          <img src="images/model.png" alt="" />
+        </div>
+      </section>
+      <!-- Banner end -->
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
